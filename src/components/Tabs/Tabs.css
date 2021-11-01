@@ -1,0 +1,20 @@
+.Tabs {
+  display: flex;
+  font-size: 1.5vw;
+}
+
+.Tab-item {
+  padding: 5px;
+  margin: 0 20px 0 0;
+  color: #61dafb;
+  padding: 1vw;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.Tab-item--selected {
+  padding: 1vw;
+  border: 1px solid;
+  border-radius: 10px;
+}

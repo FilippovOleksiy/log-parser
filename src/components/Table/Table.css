@@ -1,0 +1,44 @@
+.Table {
+  display: flex;
+  font-size: 1.3vw;
+  flex-direction: column;
+  margin: 4vh 0 0 0;
+}
+
+.Table-header {
+  color: #61dafb;
+  padding: 0 0 2vh 0;
+}
+
+.Table-row,
+.Table-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.Table-row > div {
+  display: flex;
+  width: 50%;
+}
+
+.Table-header > div {
+  display: flex;
+  width: 40%;
+  margin: 0 10% 0 0;
+}
+
+.Table-body > .Table-row:nth-child(odd) {
+  background-color: #354566;
+}
+
+.Sort--selected {
+  border-bottom: 1px solid;
+}
+
+.Sort {
+  cursor: pointer;
+}
+
+.Sort-direction {
+  margin: 0 0 0 1vw;
+}

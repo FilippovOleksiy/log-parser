@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App snapshot should match 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-content-section"
+  >
+    <div
+      className="Choose-file"
+    >
+      <input
+        accept=".log"
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      className="App-logo-container"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Table snapshot should match 1`] = `
+<div
+  className="Table"
+>
+  <div
+    className="Table-header"
+  >
+    <div
+      className="Sort Sort--selected"
+      onClick={[Function]}
+    >
+      Webpage name
+      <span
+        className="Sort-direction"
+      >
+        (
+        A..Z
+        )
+      </span>
+    </div>
+    <div
+      className="Sort null"
+      onClick={[Function]}
+    >
+      Views
+    </div>
+  </div>
+  <div
+    className="Table-body"
+  />
+</div>
+`;
+
+exports[`Tabs snapshot should match 1`] = `
+<div
+  className="Tabs"
+>
+  <div
+    className="Tab-item Tab-item--selected"
+    onClick={[Function]}
+  >
+    Total webpages views
+  </div>
+  <div
+    className="Tab-item false"
+    onClick={[Function]}
+  >
+    Total uniq webpages views
+  </div>
+</div>
+`;
+
+exports[`renders App correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-content-section"
+  >
+    <div
+      className="Choose-file"
+    >
+      <input
+        accept=".log"
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      className="App-logo-container"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders Tabs correctly 1`] = `
+<div
+  className="Tabs"
+>
+  <div
+    className="Tab-item Tab-item--selected"
+    onClick={[Function]}
+  >
+    Total webpages views
+  </div>
+  <div
+    className="Tab-item false"
+    onClick={[Function]}
+  >
+    Total uniq webpages views
+  </div>
+</div>
+`;
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="App-content-section"
+  >
+    <div
+      className="Choose-file"
+    >
+      <input
+        accept=".log"
+        onChange={[Function]}
+        type="file"
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      className="App-logo-container"
+    >
+      <img
+        alt="logo"
+        className="App-logo"
+        src="logo.svg"
+      />
+    </div>
+  </div>
+</div>
+`;
